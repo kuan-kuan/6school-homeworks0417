@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrap-1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* =================================================================================== */
+.section-Cover {
+    background: url("../img/photo-1552393700-42696fb89bfa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+
+    padding: 353px 0 256px 0;
+}
+.section-Cover p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height:18px;
+
+    color: #FFFFFF;
+
+    width: 297px;
+    text-align: left;
+    margin: 0 auto;
+}
+.section-Cover h1 {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 106px;
+
+    color: #FFFFFF;
+
+    width: 297px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+.section-Cover p.bio {
+    font-size: 24px;
+    line-height: 37px;
+    font-weight: 700;
+
+    color: #FFFFFF;
+
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 63px;
+}
+.section-Cover .social img {
+    display: inline-block;
+    margin: 0 8px;
+}
+/* =================================================================================== */
+.section-About {
+    text-align: center;
+    padding-bottom: 27px;
+}
+.section-About h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    
+    color: #000000;
+
+    padding-top: 56px;
+    margin-bottom: 39px;
+}
+.section-About figure img {
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+.section-About .p-name, .section-About .p-birth {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    
+    color: #000000;
+
+    margin-bottom: 4px;
+}
+.section-About .p-school {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+    
+    color: #000000;
+}
+.section-About .line {
+    display: inline-block;
+
+    width: 384px;
+    height: 1px;
+
+    background-color: #000000;
+
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+.section-About .p-career {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    
+    color: #000000;
+
+    margin-bottom: 28px;
+}
+.section-About .dot {
+    display: inline-block;
+
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+
+    margin-top: 5px;
+    margin-right: 16px;
+}
+/* =================================================================================== */
+.section-Brand {
+    background-color: #000000;
+
+    text-align: center;
+    padding-bottom: 120px;
+}
+.section-Brand h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    
+    color: #fff;
+
+    padding-top: 56px;
+    margin-bottom: 12px;
+}
+.section-Brand h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    
+    color: #fff;
+
+    margin-bottom: 31px;
+}
+.section-Brand p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37.33px;
+    
+    color: #fff;
+
+    margin-bottom: 48px;
+}
+.section-Brand img {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.section-Brand figure {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* =================================================================================== */
+.section-otherWork {
+    background: url("../img/photo-1561291386-5be50364cfb5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+
+    padding-bottom: 104px;
+}
+.section-otherWork h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    
+    color: #000;
+
+    padding-top: 56px;
+    margin-bottom: 23px;
+}
+.section-otherWork p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    
+    color: #000;
+
+    margin-bottom: 48px;
+}
+.section-otherWork figure p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    
+    color: #fff;
+
+    padding-top: 16px;
+    margin-bottom: 58px;
+}
+/* =================================================================================== */
+.section-Contact {
+    background-color: #000;
+
+    text-align: center;
+    padding-bottom: 64px;
+}
+.section-Contact h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    
+    color: #fff;
+
+    padding-top: 56px;
+    margin-bottom: 15px;
+}
+.section-Contact p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #fff;
+
+    margin-bottom: 16px;
+}

@@ -1,0 +1,16 @@
+/* 載入字型 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+/* 字型樣式 */
+.type-roboto-Medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.type-roboto-Bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.type-roboto-Black {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
